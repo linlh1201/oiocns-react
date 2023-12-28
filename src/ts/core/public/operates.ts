@@ -237,6 +237,15 @@ export const newWarehouse = {
     },
   ],
 };
+/** 仓库的操作 */
+export const warehouseOperates = {
+  WarehousePermission: {
+    sort: -1,
+    cmd: 'WarehousePermission',
+    label: '设立管理者',
+    iconType: 'WarehousePermission',
+  },
+};
 
 /** 团队的操作 */
 export const teamOperates = {
